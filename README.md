@@ -71,15 +71,3 @@ The script currently hard-codes the target username (`cristiano`). Change it in 
 
 Feel free to open an issue or reach out if you have questions about the approach.
 ```
-
-**4. Quick code / repo hygiene suggestions** (you should do these yourself)
-
-- Add to `.gitignore`:
-  ```
-  cookies.json
-  *.json
-  !requirements.txt
-  ```
-- Remove the committed `cookies.json` from the repo history if it contains real credentials (or at least rotate the session immediately).
-- Fix the leftover path in `cookie_utils.py` (the top-level `with open(r"\path-to-cookies\...")` is unused and broken).
-- Consider making the username a command-line argument instead of hard-coded.
