@@ -70,4 +70,3 @@ The script currently hard-codes the target username (`cristiano`). Change it in 
 ---
 
 Feel free to open an issue or reach out if you have questions about the approach.
-```
